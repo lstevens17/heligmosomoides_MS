@@ -1,0 +1,8 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in classicFisher	classicFisher	elimFisher	topgoFisher	parentchildFisher
+GO:0009986	cell surface	61	15	5.02	1	7.6e-05	7.6e-05	7.6e-05	8.2e-05
+GO:0044233	mitochondria-associated endoplasmic reti...	2	2	0.16	2	0.0067	0.0067	0.0067	1.000
+GO:0000159	protein phosphatase type 2A complex	3	2	0.25	4	0.0191	0.0191	0.0191	0.143
+GO:0000814	ESCRT II complex	3	2	0.25	5	0.0191	0.0191	0.0191	0.027
+GO:0016589	NURF complex	3	2	0.25	6	0.0191	0.0191	0.0191	0.500
+GO:0005744	TIM23 mitochondrial import inner membran...	4	2	0.33	9	0.0362	0.0362	0.0362	0.084
+GO:0016021	integral component of membrane	854	83	70.26	7	0.0324	0.0324	0.0419	0.815

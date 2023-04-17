@@ -1,0 +1,8 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in classicFisher	classicFisher	elimFisher	topgoFisher	parentchildFisher
+GO:0005215	transporter activity	687	57	57.1	265	0.5287	0.7644	0.0070	0.5287
+GO:0005254	chloride channel activity	27	7	2.24	1	0.0054	0.0054	0.0075	0.1064
+GO:0008191	metalloendopeptidase inhibitor activity	6	3	0.5	3	0.0094	0.0094	0.0094	0.0367
+GO:0051082	unfolded protein binding	24	6	1.99	4	0.0118	0.0118	0.0118	0.0098
+GO:0032217	riboflavin transmembrane transporter act...	3	2	0.25	8	0.0195	0.0195	0.0195	0.0250
+GO:0009922	fatty acid elongase activity	9	3	0.75	10	0.0328	0.0328	0.0328	1.0000
+GO:0030414	peptidase inhibitor activity	87	14	7.23	5	0.0119	0.0687	0.0363	0.3814
