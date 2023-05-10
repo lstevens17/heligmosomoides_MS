@@ -1,0 +1,21 @@
+GO,description,genome_count,div_count,expected,p_weight,p_classic
+GO:0005254,chloride channel activity,27,7,2.24,0.0075,0.0054
+GO:0008191,metalloendopeptidase inhibitor activity,6,3,0.5,0.0094,0.0094
+GO:0051082,unfolded protein binding,24,6,1.99,0.0118,0.0118
+GO:0032217,riboflavin transmembrane transporter activity,3,2,0.25,0.0195,0.0195
+GO:0009922,fatty acid elongase activity,9,3,0.75,0.0328,0.0328
+GO:0030414,peptidase inhibitor activity,87,14,7.23,0.0363,0.0119
+GO:1990456,mitochondrion-endoplasmic reticulum membrane tethering,2,2,0.17,0.0076,0.0076
+GO:0006801,superoxide metabolic process,6,3,0.52,0.0108,0.0108
+GO:0032012,regulation of ARF protein signal transduction,7,3,0.61,0.0177,0.0177
+GO:0032218,riboflavin transport,3,2,0.26,0.0215,0.0215
+GO:0007606,sensory perception of chemical stimulus,41,8,3.58,0.0232,0.0232
+GO:0060828,regulation of canonical Wnt signaling pathway,9,3,0.79,0.0373,0.0373
+GO:0051560,mitochondrial calcium ion homeostasis,4,2,0.35,0.0406,0.0406
+GO:0009986,cell surface,61,15,5.02,7.60E-05,7.60E-05
+GO:0044233,mitochondria-associated endoplasmic reticulum membrane,2,2,0.16,0.0067,0.0067
+GO:0000159,protein phosphatase type 2A complex,3,2,0.25,0.0191,0.0191
+GO:0000814,ESCRT II complex,3,2,0.25,0.0191,0.0191
+GO:0016589,NURF complex,3,2,0.25,0.0191,0.0191
+GO:0005744,TIM23 mitochondrial import inner membrane translocase complex,4,2,0.33,0.0362,0.0362
+GO:0016021,integral component of membrane,854,83,70.26,0.0419,0.0324
