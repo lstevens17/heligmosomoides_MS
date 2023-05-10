@@ -1,0 +1,15 @@
+nxHelBake1_mRNA	start	end	strand	type
+nxHelBake1.g10191.t1	1735	6622	forward	conserved
+nxHelBake1.g10192.t1	25480	42928	forward	conserved
+nxHelBake1.g10193.t1	56367	57944	forward	conserved
+nxHelBake1.g10194.t1	60385	70919	forward	conserved
+nxHelBake1.g10195.t2	92246	123626	reverse	nonconserved
+nxHelBake1.g10196.t1	142073	151502	forward	nonconserved
+nxHelBake1.g10195.t2	165094	191802	reverse	nonconserved
+nxHelBake1.g10197.t1	207937	261100	reverse	conserved
+nxHelBake1.g10198.t1	271502	278747	forward	conserved
+nxHelBake1.g10199.t1	306187	310304	forward	conserved
+nxHelBake1.g10200.t1	310410	312948	reverse	conserved
+nxHelBake1.g10201.t1	313265	326689	reverse	conserved
+nxHelBake1.g10202.t2	326955	329872	reverse	conserved
+nxHelBake1.g10203.t1	354690	373435	forward	conserved
