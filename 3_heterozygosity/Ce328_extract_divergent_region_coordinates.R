@@ -1,0 +1,38 @@
+library(tidyverse)
+
+# read in data from C. elegans paper
+load("divergent_classification.RData")
+
+# filter table for each strain with pacbio data
+CB4856 <- df_divergent_final %>% filter(STRAIN == 'CB4856') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+DL238 <- df_divergent_final %>% filter(STRAIN == 'DL238') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+ECA36 <- df_divergent_final %>% filter(STRAIN == 'ECA36') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+ECA396 <- df_divergent_final %>% filter(STRAIN == 'ECA396') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+EG4725 <- df_divergent_final %>% filter(STRAIN == 'EG4725') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+JU1400 <- df_divergent_final %>% filter(STRAIN == 'JU1400') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+JU2526 <- df_divergent_final %>% filter(STRAIN == 'JU2526') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+JU2600 <- df_divergent_final %>% filter(STRAIN == 'JU2600') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+JU310 <- df_divergent_final %>% filter(STRAIN == 'JU310') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+MY2147 <- df_divergent_final %>% filter(STRAIN == 'MY2147') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+MY2693 <- df_divergent_final %>% filter(STRAIN == 'MY2693') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+NIC2 <- df_divergent_final %>% filter(STRAIN == 'NIC2') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+NIC526 <- df_divergent_final %>% filter(STRAIN == 'NIC526') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+QX1794 <- df_divergent_final %>% filter(STRAIN == 'QX1794') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+XZ1516 <- df_divergent_final %>% filter(STRAIN == 'XZ1516') %>% dplyr::distinct(STRAIN, CHROM, cluster_start, cluster_size, cluster_end)
+
+# write out tables
+write.table(CB4856, file='CB4856_divergent_regions.tsv', sep='\t')
+write.table(DL238, file='DL238_divergent_regions.tsv', sep='\t')
+write.table(ECA36, file='ECA36_divergent_regions.tsv', sep='\t')
+write.table(ECA396, file='ECA396_divergent_regions.tsv', sep='\t')
+write.table(EG4725, file='EG4725_divergent_regions.tsv', sep='\t')
+write.table(JU1400, file='JU1400_divergent_regions.tsv', sep='\t')
+write.table(JU2526, file='JU2526_divergent_regions.tsv', sep='\t')
+write.table(JU2600, file='JU2600_divergent_regions.tsv', sep='\t')
+write.table(JU310, file='JU310_divergent_regions.tsv', sep='\t')
+write.table(MY2147, file='MY2147_divergent_regions.tsv', sep='\t')
+write.table(MY2693, file='MY2693_divergent_regions.tsv', sep='\t')
+write.table(NIC2, file='NIC2_divergent_regions.tsv', sep='\t')
+write.table(NIC526, file='NIC526_divergent_regions.tsv', sep='\t')
+write.table(QX1794, file='QX1794_divergent_regions.tsv', sep='\t')
+write.table(XZ1516, file='XZ1516_divergent_regions.tsv', sep='\t')
