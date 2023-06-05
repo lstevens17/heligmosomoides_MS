@@ -21,4 +21,4 @@ p <- ggplot(data=df, aes(x=count, y=total, colour=dataset)) +
   scale_colour_manual(values=c("#d98900", "#f5c067", "#1a7574", "#49abaa", "#94ebea", "lightgrey", "darkgrey"))
 
 ggsave("cumulative_length_curves.pdf", plot = p, width=10, height=6, units="in")
-ggsave("cumulative_length_curves.pdf", plot = p, width=10, height=6, units="in")
+ggsave("cumulative_length_curves.png", plot = p, width=10, height=6, units="in")
