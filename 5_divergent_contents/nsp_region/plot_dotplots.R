@@ -29,22 +29,7 @@ p2 <- ngHelPoly1 %>% filter(LEN1 > 500) %>%
   coord_cartesian(xlim=c(580000/1e6,1150000/1e6), expand=c(0,0)) + 
   theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank())
 
-gene_locations <- read.table("nxHelBake1.1.primary.final_annotations.gff3_longest_isoforms_gene.bed", col.names=c("chr", "start", "stop", "id"))
+p <- p1 / p2 
 
-p3 <- gene_locations %>% filter(chr == "III") %>%
-  ggplot(.) + 
-  geom_rect(aes(xmin=start/1e6, xmax=stop/1e6, ymin=0, ymax=1), colour="black", fill="grey", linewidth=0.2) +
-  theme_bw() + 
-  #geom_vline(xintercept=836558/1e6, colour="blue", linetype=2) + geom_vline(xintercept=858307/1e6, colour="blue", linetype=2) + 
-  #geom_vline(xintercept=867278/1e6, colour="red", linetype=2) + geom_vline(xintercept=873706/1e6, colour="red", linetype=2) + 
-  #geom_vline(xintercept=881397/1e6, colour="blue", linetype=2) + geom_vline(xintercept=885419/1e6, colour="blue", linetype=2) + 
-  #geom_vline(xintercept=913477/1e6, colour="red", linetype=2) + geom_vline(xintercept=917242/1e6, colour="red", linetype=2) +
-  xlab("Position in nxHelBake1 chromosome III (Mb)") + 
-  coord_cartesian(xlim=c(580000/1e6,1150000/1e6), expand=c(0,0)) + 
-  theme(axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank(), panel.grid.major = element_blank(), panel.grid.minor = element_blank())
-  
-p <- p1 / p2 / p3 + 
-  plot_layout(heights = unit(c(5, 5, 1), c('null')))
-
-ggsave("nxHelBake2_ngHelPoly1_dotplots_genes.png", plot = p, width=8, height=8, units="in")
-ggsave("nxHelBake2_ngHelPoly1_dotplots_genes.pdf", plot = p, width=8, height=8, units="in")
+ggsave("nxHelBake2_ngHelPoly1_dotplots.png", plot = p, width=8, height=8, units="in")
+ggsave("nxHelBake2_ngHelPoly1_dotplots.pdf", plot = p, width=8, height=8, units="in")
