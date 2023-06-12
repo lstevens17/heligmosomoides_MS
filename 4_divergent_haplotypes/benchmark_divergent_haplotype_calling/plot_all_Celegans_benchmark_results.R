@@ -2,7 +2,7 @@ library(ggplot2)
 library(tidyverse)
 library(patchwork)
 
-benchmark <- read.table("data_matrix.summary.reformat.tsv", col.names=c("flank_identity", "flank_length", "length", "snp_dens", "bins", "cov", "spanLS", "intersect", "spanDL", "sens", "spec"))
+benchmark <- read.table("benchmark_values.combined.reformatted.tsv", col.names=c("flank_identity", "flank_length", "length", "snp_dens", "bins", "cov", "spanLS", "intersect", "spanDL", "sens", "spec"))
 
 p1 <- ggplot(data=benchmark, aes(x=sens, y=spec, color=factor(flank_identity))) + 
   geom_point(size=2, alpha=0.75) + 
