@@ -11,8 +11,11 @@ Code and files related to the first results section ("Chromosome-level reference
 Code and files related to the second results section ("The H. bakeri and H. polygyrus genomes are highly divergent")
 
 ## [3_heterozygosity](https://github.com/lstevens17/heligmosomoides_MS/tree/main/3_heterozygosity)
-Code and files related to the third and four results sections ("Heterozygosity is concentrated in distinct regions of the H. bakeri genome" and "Hyper-divergent haplotypes are widespread in the H. bakeri genome")
+Code and files related to the third results sections ("Heterozygosity is concentrated in distinct regions of the H. bakeri genome")
 
-## [4_divergent_contents](https://github.com/lstevens17/heligmosomoides_MS/tree/main/4_divergent_contents)
+## [4_divergent_haplotypes](https://github.com/lstevens17/heligmosomoides_MS/tree/main/4_divergent_haplotypes)
+Code and files related to the fouth results sections ("Hyper-divergent haplotypes are widespread in the H. bakeri genome")
+
+## [5_divergent_contents](https://github.com/lstevens17/heligmosomoides_MS/tree/main/5_divergent_contents)
 Code and files related to the fifth results section ("Ancient genetic diversity in genes associated with host-parasite interactions").
 
