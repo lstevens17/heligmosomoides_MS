@@ -19,3 +19,5 @@ Code and files related to the fouth results sections ("Hyper-divergent haplotype
 ## [5_divergent_contents](https://github.com/lstevens17/heligmosomoides_MS/tree/main/5_divergent_contents)
 Code and files related to the fifth results section ("Ancient genetic diversity in genes associated with host-parasite interactions").
 
+## [gene_annotation_files](https://github.com/lstevens17/heligmosomoides_MS/tree/main/gene_annotation_files)
+GFF3, protein, and CDS files for the protein-coding annotations of nxHelBake1.1 and ngHelPoly1.1 reference genomes. 
