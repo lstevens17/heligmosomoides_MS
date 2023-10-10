@@ -21,3 +21,6 @@ Code and files related to the fifth results section ("Ancient genetic diversity 
 
 ## [gene_annotation_files](https://github.com/lstevens17/heligmosomoides_MS/tree/main/gene_annotation_files)
 GFF3, protein, and CDS files for the protein-coding annotations of nxHelBake1.1 and ngHelPoly1.1 reference genomes. 
+
+## [repeat_annotation_files](https://github.com/lstevens17/heligmosomoides_MS/tree/main/repeat_annotation_files)
+FASTA files containing the curated and initial repeat libraries for both species.
