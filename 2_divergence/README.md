@@ -12,3 +12,8 @@ Contains code and files to plot divergence between H. bakeri and H. polygyrus an
 
 Contains code and files to generate the Oxford plot show gene order between H. bakeri and H. polygyrus. A TSV contains the locations of BUSCO genes in each species along with the Nigon assignment. This TSV is plotted by an R scipt (plot_nigon_Oxford.R).
 
+[**ds_comparison**](https://github.com/lstevens17/heligmosomoides_MS/tree/main/2_divergence/ds_comparison)
+
+Contains code and files to generate the plot comparing dS between various nematode sister species. TSV files contain dS values for each species pair, which are plotted by an R script (plot_comparative_dS.R)
+
+
