@@ -1,7 +1,5 @@
 # Code and plots associated with "Ancient diversity in host-parasite interaction genes in a model parasitic nematode"
 
-Manuscript is currently available bioRxiv: https://www.biorxiv.org/content/10.1101/2023.04.17.535870v1
-
 Each subdirectory contains a README with descriptions of the files therein. 
 
 ## [1_genomes](https://github.com/lstevens17/heligmosomoides_MS/tree/main/1_genomes)
