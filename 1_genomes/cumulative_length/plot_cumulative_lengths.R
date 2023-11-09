@@ -11,6 +11,7 @@ PRJEB1203 <- read.table("heligmosomoides_polygyrus.PRJEB1203.WBPS17.genomic.fa_c
 PRJEB15396 <- read.table("heligmosomoides_polygyrus.PRJEB15396.WBPS17.genomic.fa_cumulative_length.tsv", col.names=c("count", "total")) %>% mutate(dataset = "PRJEB15396")
 
 df <- rbind(HB1, HB2, HB3, HP1, HP2, PRJEB15396, PRJEB1203)
+write.table(df, file="all_cumulative_lengths.tsv", sep="\t", row.names=F, quote=F)
 
 p <- ggplot(data=df, aes(x=count, y=total, colour=dataset)) + 
   geom_line(size=1.5) +

@@ -7,6 +7,7 @@ compare <- read.table("nxHelBake1_ngHelPoly1_nigon_position_table.tsv", col.name
 minimap2_bed <- read.table("nxHelBake1_vs_ngHelPoly1_minimap2.bed", col.names=c("chr", "start", "stop", "length", "div")) %>% filter(length > 5e3) %>%
   filter(chr == "I" | chr == "II" | chr == "III" | chr == "IV" | chr == "V" | chr == "X")
 dS_locations <- read.table(file = "nxHelBake1_codeml_dS.with_location.updated.tsv", col.names = c("id", "chr", "start", "stop", "dS")) %>% filter(chr == "I" | chr == "II" | chr == "III" | chr == "IV" | chr == "V" | chr == "X") %>% filter(dS < 0.8)
+write.table(dS_locations, file="nxHelBake1_codeml_dS.with_location.updated.filtered.tsv", row.names=F, sep="\t", quote=F)
 
 cols <- c("A" = "#af0e2b", "B" = "#e4501e",
           "C" = "#4caae5", "D" = "#f3ac2c",
