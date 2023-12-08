@@ -1,7 +1,3 @@
-# Rscript1.R
-# eg. run:
-# Rscript Rscript1.R annotations.txt interestinggenes.txt output_file
-
 args <- commandArgs(trailingOnly = TRUE)
 universeFile = "gene2go.tsv"
 interestingGenesFile = args[1]
